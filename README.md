@@ -26,12 +26,13 @@ This repository contains the data and code used in the manuscript "Atlas of the 
 
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
+![git-LFS](https://img.shields.io/badge/Git%20LFS-white?style=for-the-badge&logo=Git%20LFS&logoColor=red)
+![Biopython](https://img.shields.io/badge/Biopython-6495ED.svg?style=for-the-badge&logo=Biopython&logoColor=black) 
 
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white) 
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) 
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) 
-![Biopython](https://img.shields.io/badge/Biopython-6495ED.svg?style=for-the-badge&logo=Biopython&logoColor=black) 
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
 
   
 
@@ -88,7 +89,6 @@ This repository contains the data and code used in the manuscript "Atlas of the 
 
   
 
-</br> 
 
   
 
@@ -152,15 +152,18 @@ This repository contains the data and code used in the manuscript "Atlas of the 
 
   
 
-HelperBunny is used for comparative sequence analysis and has been included in the jupyter_notebooks directory for convenience. More information can be found here https://github.com/waylandy/HelperBunny 
+HelperBunny is used for comparative sequence analysis and has been included in the jupyter_notebooks directory for convenience. More information can be found here https://github.com/waylandy/HelperBunny.
 
+
+### Git LFS 
+
+  
+
+Due to the large size of the files, Git Large File Storage (Git LFS) is required to clone the repository. Installation steps can be found below. More information can be found here https://git-lfs.com/.
   
 
 </br> 
 
-  
-
-</br> 
 
   
 
@@ -171,26 +174,37 @@ HelperBunny is used for comparative sequence analysis and has been included in t
 ## Downloading this repository   
 
   
-
+1. Download Git LFS
 ```   
 sudo apt install git-lfs
 ```   
 
+2. Install Git LFS
 ```   
 git lfs install
 ```     
 
+3. Clone the repository to your local computer (this may take a moment)
 ```   
 git clone https://github.com/boboyle/Atlas-of-Bacterial-Serine-Threonine-Kinome
 ``` 
 
+4. Navigate into the cloned directory
+```   
+cd Atlas-of-Bacterial-Serine-Threonine-Kinome
+``` 
+  
+5. Unzip data, Jupyter notebook and HelperBunny folders (this also may take a moment)
 ```   
 unzip data.zip
 unzip jupyter_notebooks.zip
+cd jupyter_notebooks
+unzip HelperBunny.zip
 ```
 
-  
+6. Open Jupyter lab
+```   
+jupyter lab
+``` 
 
- 
-
- 
+7. Start analyzing data!

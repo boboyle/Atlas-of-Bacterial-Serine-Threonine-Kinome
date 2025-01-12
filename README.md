@@ -194,12 +194,11 @@ git clone https://github.com/boboyle/Atlas-of-Bacterial-Serine-Threonine-Kinome
 cd Atlas-of-Bacterial-Serine-Threonine-Kinome
 ``` 
   
-5. Unzip data, Jupyter notebook and HelperBunny folders (this also may take a moment)
+5. Unzip data and Jupyter notebook folders (this also may take a moment)
 ```   
 unzip data.zip
 unzip jupyter_notebooks.zip
 cd jupyter_notebooks
-unzip HelperBunny.zip
 ```
 
 6. Open Jupyter lab

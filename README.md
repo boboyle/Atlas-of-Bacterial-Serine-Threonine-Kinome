@@ -56,6 +56,8 @@ This repository contains the data and code used in the manuscript "Atlas of the 
     - `a3m_files`: sequences from each bacterial STK family in a3m format
 
     - `fasta_files`: sequences from each bacterial STK family in fasta format
+    
+    - `profile_hmms`: profile HMMs from each bacterial STK family
 
     - `bSTK_constraints.con`: file containing the constraint patterns and weights associated with each of the STK families
 
@@ -65,7 +67,7 @@ This repository contains the data and code used in the manuscript "Atlas of the 
 
     - `nr220614_bSTK.cdd`: file containing the domain data from the Conserved Domain Database for each bacterial STK sequence
 
-    - `nr220614_bSTK.tmhmm`: ile containing the transmembrane data from TMHMM for each bacterial STK sequence
+    - `nr220614_bSTK.tmhmm`: file containing the transmembrane data from TMHMM for each bacterial STK sequence
 
 
 - `Juypter Notebooks`: ipynb files with code used to process and analyze data
